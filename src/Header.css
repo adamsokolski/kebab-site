@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+@import "colors.css";
+/* :root {
+  --main: #90c340;
+  --snow-white: #fffbff;
+  --dark: #36382e;
+  --marigin-1: 15px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  background-color: var(--dark);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Segoe UI";
+}
+
+ul,
+li {
+  list-style-type: none;
+  display: inline;
+  color: var(--snow-white);
+}
+
+h1 {
+  font-family: "Jockey One", sans-serif;
+  line-height: 0.8;
+  margin: var(--marigin-1);
+}
+
+nav {
+  margin: var(--marigin-1);
+}
+
+span {
+  display: block;
+}
+
+.header-first-line {
+  font-size: 38px;
+  color: var(--snow-white);
+}
+
+.header-second-line {
+  color: var(--main);
+}
+
+.intro {
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+  width: 100vw;
+}
+
+.intro h2 {
+  font-weight: 600;
+  color: var(--snow-white);
+  font-size: 20px;
+}
+
+.first-p {
+  font-weight: 400;
+  font-size: 15px;
+}

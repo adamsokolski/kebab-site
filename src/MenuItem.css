@@ -1,0 +1,48 @@
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  background-color: #ffffff;
+  box-shadow: 0 3px 20px 0 rgba(128, 87, 77, 0.1);
+  padding: 15px;
+  margin: 5px;
+}
+
+.item-content {
+  width: 80%;
+}
+.item-content h4 {
+  font-size: 18px;
+}
+
+h4 span {
+  display: inline;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.ingredients {
+  font-size: 12px;
+}
+
+.price {
+  padding: 10px;
+  display: flex;
+  font-weight: bold;
+}
+
+.zloty {
+  font-size: 25px;
+}
+
+.grosze {
+  margin-left: 1px;
+  padding-top: 4px;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.inne-item {
+  height: 60px;
+}

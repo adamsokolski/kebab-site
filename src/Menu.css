@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+.menu-block {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f4f3;
+  width: 100vw;
+  color: var(--dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu-block h3 {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-block h2 {
+  margin: 20px;
+}

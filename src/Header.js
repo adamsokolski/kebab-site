@@ -17,8 +17,8 @@ export default function Header() {
       <section className="intro">
         <h2>
           <p className="first-p">MASZ OCHOTĘ NA</p>
-          <p>NAJLEPSZEGO KEBABA</p>
-          <p>W DĘBLINIE?</p>
+          <p className="next-p">NAJLEPSZEGO KEBABA</p>
+          <p className="next-p">W DĘBLINIE?</p>
         </h2>
         <Button content="ZAMÓW" />
       </section>

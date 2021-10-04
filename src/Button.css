@@ -1,14 +1,15 @@
 @import "colors.css";
 
 button {
-  margin: 10px;
+  margin: 1.5rem;
   background-color: var(--main);
   border: none;
-  border-radius: 15px;
+  border-radius: 1.5rem;
   color: var(--snow-white);
-  padding: 2px 10px 2px 10px;
+  padding: 0.2rem 1rem;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
 }
 
 button {

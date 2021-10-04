@@ -104,12 +104,14 @@ export default function Menu() {
       <div className="category-heading">
         <h3>KEBAB:</h3>
         <div className="sauces">
-          sosy: <Marker value="łagodny" color="marker-green" />
+          <span className="sauces-name">Sosy:</span>
+          <Marker value="łagodny" color="marker-green" />
           <Marker value="ostry" color="marker-red" />
           <Marker value="mix" color="marker-mix" />
         </div>
         <div className="sauces">
-          mięso: <Marker value="kurczak" color="marker-green" />
+          <span className="sauces-name">Mięso:</span>
+          <Marker value="kurczak" color="marker-green" />
           <Marker value="wołowina" color="marker-green" />
           <Marker value="mix" color="marker-green" />
         </div>

@@ -12,11 +12,25 @@
 }
 
 .menu-block h3 {
-  height: 60px;
   display: flex;
   align-items: center;
+  font-size: 25px;
 }
 
 .menu-block h2 {
   margin: 20px;
+}
+
+.category-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.sauces {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

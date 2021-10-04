@@ -1,5 +1,6 @@
 import React from "react";
 import MenuItem from "./MenuItem";
+import Marker from "./Marker";
 import "./Menu.css";
 
 export default function Menu() {
@@ -79,6 +80,12 @@ export default function Menu() {
     ["Frytki", [], ["7", "00"], 7],
     ["Sałatka Vege/Kurczak", [], ["10", "00"], 8],
   ];
+  const dodatkiArr = [
+    ["Dodatkowy sos", [], ["1", "00"], 1],
+    ["Dodatkowy ser", [], ["1", "00"], 2],
+    ["Dodatkowe warzywa", [], ["2", "00"], 3],
+    ["Dodatkowe mięso", [], ["7", "00"], 4],
+  ];
   const kebabList = kebabArr.map((number) => (
     <MenuItem key={number[3].toString()} value={number} />
   ));
@@ -88,15 +95,45 @@ export default function Menu() {
   const inneList = inneArr.map((number) => (
     <MenuItem key={number[3].toString()} value={number} className="inne-item" />
   ));
+  const dodatkiList = dodatkiArr.map((number) => (
+    <MenuItem key={number[3].toString()} value={number} className="inne-item" />
+  ));
   return (
     <section className="menu-block">
       <h2>Nasze Menu!</h2>
-      <h3>KEBAB:</h3>
+      <div className="category-heading">
+        <h3>KEBAB:</h3>
+        <div className="sauces">
+          sosy: <Marker value="łagodny" color="marker-green" />
+          <Marker value="ostry" color="marker-red" />
+          <Marker value="mix" color="marker-mix" />
+        </div>
+        <div className="sauces">
+          mięso: <Marker value="kurczak" color="marker-green" />
+          <Marker value="wołowina" color="marker-green" />
+          <Marker value="mix" color="marker-green" />
+        </div>
+      </div>
+
       {kebabList}
-      <h3>ZAPIEKANKI:</h3>
+      <div className="category-heading">
+        <h3>ZAPIEKANKI:</h3>
+        <p className="ingredients">
+          (sos czosnkowy, ketuch, cebulka prażona)
+        </p>{" "}
+      </div>
+
       {zapiekankiList}
-      <h3>INNE:</h3>
+      <div className="category-heading">
+        <h3>INNE:</h3>
+      </div>
+
       {inneList}
+      <div className="category-heading">
+        <h3>DODATKI:</h3>
+      </div>
+
+      {dodatkiList}
     </section>
   );
 }

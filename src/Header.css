@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
 @import "colors.css";
 
 header {
@@ -9,6 +8,9 @@ header {
   justify-content: space-between;
   align-items: center;
   font-family: "Segoe UI";
+}
+header h2 {
+  margin-bottom: 1.3rem;
 }
 
 ul,

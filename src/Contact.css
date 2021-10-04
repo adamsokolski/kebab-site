@@ -1,0 +1,40 @@
+.contact {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--dark);
+  color: var(--snow-white);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.contact h2 {
+  font-size: 2.5rem;
+  opacity: 0.85;
+}
+
+.contact-number {
+  font-family: "Rowdies", cursive;
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+}
+.opening-hours {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 0.1rem;
+  max-width: 20rem;
+  font-size: 1.6rem;
+  margin: 2rem;
+  font-weight: 600;
+}
+
+.opening-hours p:nth-child(odd) {
+  width: 30%;
+}
+.opening-hours p:nth-child(even) {
+  width: 70%;
+  text-align: end;
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.css";
-import Button from "./Button";
 
 export default function Header() {
   return (
@@ -20,7 +19,9 @@ export default function Header() {
           <p className="next-p">NAJLEPSZEGO KEBABA</p>
           <p className="next-p">W DĘBLINIE?</p>
         </h2>
-        <Button content="ZAMÓW" />
+        <a className="button-like" href="#contact">
+          ZAMÓW
+        </a>
       </section>
     </header>
   );

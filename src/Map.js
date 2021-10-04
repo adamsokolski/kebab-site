@@ -6,6 +6,7 @@ export default function Map() {
   };
   return (
     <iframe
+      title="googleMaps"
       width="600"
       height="450"
       style={styles}

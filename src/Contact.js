@@ -19,9 +19,8 @@ export default function Contact() {
         <p>nd</p>
         <p>zamknięte</p>
       </div>
-      <div>
-        <Map />
-      </div>
+
+      <Map />
     </section>
   );
 }

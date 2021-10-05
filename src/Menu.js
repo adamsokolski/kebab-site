@@ -101,41 +101,43 @@ export default function Menu() {
   return (
     <section className="menu-block">
       <h2>Nasze Menu!</h2>
-      <div className="category-heading">
-        <h3>KEBAB:</h3>
-        <div className="sauces">
-          <span className="sauces-name">Sosy:</span>
-          <Marker value="łagodny" color="marker-green" />
-          <Marker value="ostry" color="marker-red" />
-          <Marker value="mix" color="marker-mix" />
+      <div className="category">
+        {" "}
+        <div className="category-heading kebab-category">
+          <h3>KEBAB:</h3>
+          <div className="sauces">
+            <span className="sauces-name">Sosy:</span>
+            <Marker value="łagodny" color="marker-green" />
+            <Marker value="ostry" color="marker-red" />
+            <Marker value="mix" color="marker-mix" />
+          </div>
+          <div className="sauces">
+            <span className="sauces-name">Mięso:</span>
+            <Marker value="kurczak" color="marker-green" />
+            <Marker value="wołowina" color="marker-green" />
+            <Marker value="mix" color="marker-green" />
+          </div>
         </div>
-        <div className="sauces">
-          <span className="sauces-name">Mięso:</span>
-          <Marker value="kurczak" color="marker-green" />
-          <Marker value="wołowina" color="marker-green" />
-          <Marker value="mix" color="marker-green" />
+        {kebabList}
+      </div>
+      <div className="category">
+        {" "}
+        <div className="category-heading zapiekanki-category">
+          <h3>ZAPIEKANKI:</h3>
+          <p className="ingredients">
+            (sos czosnkowy, ketuch, cebulka prażona)
+          </p>
         </div>
+        {zapiekankiList}
+        <div className="category-heading">
+          <h3>INNE:</h3>
+        </div>
+        {inneList}{" "}
+        <div className="category-heading">
+          <h3>DODATKI:</h3>
+        </div>
+        {dodatkiList}
       </div>
-
-      {kebabList}
-      <div className="category-heading">
-        <h3>ZAPIEKANKI:</h3>
-        <p className="ingredients">
-          (sos czosnkowy, ketuch, cebulka prażona)
-        </p>{" "}
-      </div>
-
-      {zapiekankiList}
-      <div className="category-heading">
-        <h3>INNE:</h3>
-      </div>
-
-      {inneList}
-      <div className="category-heading">
-        <h3>DODATKI:</h3>
-      </div>
-
-      {dodatkiList}
     </section>
   );
 }

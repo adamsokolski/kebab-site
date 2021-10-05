@@ -8,6 +8,14 @@ header {
   justify-content: space-between;
   align-items: center;
   font-family: "Segoe UI";
+  background:
+        /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    /* bottom, image */
+      url(./img/243212088_1927282077452843_1974472269509687886_n.jpg);
+  background-size: 100%;
 }
 header h2 {
   margin-bottom: 1.3rem;

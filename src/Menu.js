@@ -99,7 +99,7 @@ export default function Menu() {
     <MenuItem key={number[3].toString()} value={number} className="inne-item" />
   ));
   return (
-    <section className="menu-block">
+    <section id="menu" className="menu-block">
       <h2>Nasze Menu!</h2>
       <div className="category">
         {" "}

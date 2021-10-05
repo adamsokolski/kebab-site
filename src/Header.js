@@ -10,7 +10,16 @@ export default function Header() {
       </h1>
       <nav>
         <ul>
-          <li>MENU</li>
+          <li>
+            <a href="#menu">
+              <i class="fas fa-clipboard-list"></i> MENU
+            </a>
+          </li>
+          <li>
+            <a href="#lokalizacja">
+              <i class="fas fa-map-marker-alt"></i> LOKALIZACJA
+            </a>
+          </li>
         </ul>
       </nav>
       <section className="intro">
@@ -19,9 +28,14 @@ export default function Header() {
           <p className="next-p">NAJLEPSZEGO KEBABA</p>
           <p className="next-p">W DĘBLINIE?</p>
         </h2>
-        <a className="button-like" href="#contact">
-          ZAMÓW
-        </a>
+        <div className="contact-number-box">
+          <p className="contact-number">502 432 560</p>
+          <a href="tel:502 432 560">
+            <button>
+              <i class="fas fa-phone-alt"></i> ZADZWOŃ
+            </button>
+          </a>
+        </div>
       </section>
     </header>
   );

@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
   padding: 2rem 0;
 }
 .contact h2 {
@@ -44,6 +45,7 @@
 .adres {
   font-size: 1.3rem;
   opacity: 0.9;
+  padding-bottom: 1.5rem;
 }
 .adres-heading {
   font-weight: 600;
@@ -55,15 +57,52 @@
   flex-direction: column;
 }
 
+.footer-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1.5rem 0 0 0;
+  font-size: 1.3rem;
+}
+
+.footer-info a {
+  color: rgb(158, 151, 255);
+  margin-left: 0.5ch;
+}
+
+.footer-info a:hover {
+  color: rgb(220, 218, 255);
+  transition: 0.2s;
+}
+
+hr {
+  color: rgba(255, 255, 255, 0.623);
+  width: 95%;
+}
+
+.fb-link {
+  color: var(--snow-white);
+  background-color: #3b5998;
+  animation-name: none;
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+.fb-link span {
+  margin-left: 0.5ch;
+}
+
 @media (min-width: 900px) {
   .contact {
     flex-direction: row;
   }
   .contact-number-box {
-    width: 50%;
+    width: 45%;
   }
   #google-map {
-    width: 50%;
+    width: 45%;
     margin: 1rem;
   }
 }

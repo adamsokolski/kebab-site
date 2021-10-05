@@ -3,11 +3,11 @@ import React from "react";
 export default function Map() {
   const styles = {
     border: 0,
-    width: "100%",
   };
   return (
     <iframe
-      title="googleMaps"
+      id="google-map"
+      title="googleMap"
       height="450"
       style={styles}
       loading="lazy"

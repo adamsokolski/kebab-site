@@ -20,3 +20,9 @@ html {
     font-size: 85%;
   }
 }
+
+@media (min-width: 3000px) {
+  html {
+    font-size: 125%;
+  }
+}

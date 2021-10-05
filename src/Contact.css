@@ -38,3 +38,32 @@
   width: 70%;
   text-align: end;
 }
+#google-map {
+  width: 100%;
+}
+.adres {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+.adres-heading {
+  font-weight: 600;
+}
+.contact-number-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .contact {
+    flex-direction: row;
+  }
+  .contact-number-box {
+    width: 50%;
+  }
+  #google-map {
+    width: 50%;
+    margin: 1rem;
+  }
+}

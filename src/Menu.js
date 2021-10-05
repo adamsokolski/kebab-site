@@ -125,7 +125,7 @@ export default function Menu() {
         <div className="category-heading zapiekanki-category">
           <h3>ZAPIEKANKI:</h3>
           <p className="ingredients">
-            (sos czosnkowy, ketuch, cebulka prażona)
+            (sos czosnkowy, ketchup, cebulka prażona)
           </p>
         </div>
         {zapiekankiList}

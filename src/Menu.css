@@ -32,6 +32,14 @@
   padding: 1.5rem;
 }
 
+.category {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .sauces {
   display: flex;
   justify-content: center;
@@ -47,7 +55,8 @@
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: 0 5rem;
+    padding: 1rem 1rem;
+    padding-bottom: 3rem;
   }
   .category {
     width: 50%;

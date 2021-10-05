@@ -1,7 +1,7 @@
 .menu-item {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 90%;
   background-color: #ffffff;
   box-shadow: 0 3px 20px 0 rgba(128, 87, 77, 0.1);
@@ -45,4 +45,9 @@ h4 span {
 
 .inne-item {
   height: 6rem;
+}
+
+.menu-item:hover {
+  box-shadow: 0 3px 20px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
 }

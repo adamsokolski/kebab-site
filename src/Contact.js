@@ -26,6 +26,13 @@ export default function Contact() {
           <span className="adres-heading">Adres:</span> 15 Pułku Piechoty Wilków
           5i, 08-530 Dęblin
         </p>
+        <p className="adres">
+          <p>
+            <span className="adres-heading">Dowóz:</span> GRATIS na terenie
+            Dęblina od <b>26zł</b> (poniżej nie dowozimy)
+          </p>
+          <p>okolice 1zł za 1km liczone w jedną stronę</p>
+        </p>
         <a
           className="fb-link marker"
           href="https://www.facebook.com/Kebab-Pod-Kauflandem-D%C4%99blin-754295348084861/"

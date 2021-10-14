@@ -10,6 +10,8 @@
   justify-content: center;
   flex-direction: column;
   padding-bottom: 2rem;
+  background-image: url(./img/wickedbackground.svg);
+  background-size: 100%;
 }
 
 .menu-block h3 {

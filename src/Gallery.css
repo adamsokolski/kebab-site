@@ -34,6 +34,10 @@
   transform: scale(1);
 }
 
+img {
+  height: 100%;
+}
+
 .gallery img:hover {
   transform: scale(1.1);
   transition: 0.2s;

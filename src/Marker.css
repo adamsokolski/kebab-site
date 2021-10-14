@@ -11,7 +11,7 @@
   margin: 0.5rem;
   padding: 0.3rem 1rem;
   font-weight: 600;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Helvetica, Tahoma, Geneva, Verdana, sans-serif;
   --mild: #fff5d5;
   --spicy: rgb(255, 140, 140);
   user-select: none;

@@ -7,7 +7,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", Helvetica, Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url(./img/8.jpg);
   background-size: cover;

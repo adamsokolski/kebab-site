@@ -1,5 +1,4 @@
 import React from "react";
-import { ShimmerSimpleGallery } from "react-shimmer-effects";
 import GalleryPhoto from "./GalleryPhoto";
 import photo1 from "./img/1.jpg";
 import photo2 from "./img/2.jpg";
@@ -18,9 +17,6 @@ import photo15 from "./img/15.png";
 import "./Gallery.css";
 
 export default function Gallery() {
-  const YourComponent = () => {
-    return <ShimmerSimpleGallery card imageHeight={300} />;
-  };
   const photosArr = [
     [photo1, "zapiekanka z sosem czosnkowym, ketchupem oraz cebulką prażoną"],
     [photo2, "zapiekanka z sosem czosnkowym, ketchupem oraz cebulką prażoną"],
@@ -43,7 +39,7 @@ export default function Gallery() {
 
   return (
     <div className="gallery">
-      <ul>{photosList || <YourComponent />}</ul>
+      <ul>{photosList}</ul>
     </div>
   );
 }

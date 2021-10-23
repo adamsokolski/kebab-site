@@ -15,7 +15,11 @@ export default class GalleryPhoto extends React.Component {
         {this.state.loaded ? null : (
           <ShimmerThumbnail height={300} width={500} className="m-0" rounded />
         )}
-        <Zoom wrapElement="li">
+        <Zoom
+          wrapElement="li"
+          overlayBgColorEnd="rgba(0, 0, 0, 0.9)"
+          transitionDuration="222"
+        >
           <img
             style={this.state.loaded ? {} : { display: "none" }}
             src={this.props.src}

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-
 .menu-block {
   font-family: "Poppins", sans-serif;
   background-color: #f7f4f3;
@@ -10,7 +8,7 @@
   justify-content: center;
   flex-direction: column;
   padding-bottom: 2rem;
-  background-image: url(./img/wickedbackground.svg);
+  background-image: url(../../img/wickedbackground.svg);
   background-size: 100%;
 }
 

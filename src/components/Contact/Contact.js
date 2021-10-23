@@ -1,6 +1,6 @@
 import React from "react";
-import "./Contact.css";
-import Map from "./Map";
+import "../../css/Contact/Contact.css";
+import Map from "../Map/Map";
 
 export default function Contact() {
   return (

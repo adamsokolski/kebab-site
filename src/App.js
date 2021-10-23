@@ -1,8 +1,8 @@
-import Header from "./Header";
-import Menu from "./Menu";
-import Contact from "./Contact";
-import Gallery from "./Gallery";
-import "./fonts.css";
+import Header from "./components/Header/Header";
+import Menu from "./components/Menu/Menu";
+import Contact from "./components/Contact/Contact";
+import Gallery from "./components/Gallery/Gallery";
+import "./css/fonts.css";
 
 function App() {
   return (

@@ -27,7 +27,8 @@ import photo12webp from "../../img/12.webp";
 import photo13webp from "../../img/13.webp";
 import photo14webp from "../../img/14.webp";
 import photo15webp from "../../img/15.webp";
-import "../../css/Gallery/Gallery.css";
+// import "../../css/Gallery/Gallery.css";
+import "../../css/Gallery/GalleryExp.css";
 
 export default function Gallery() {
   const photosArr = [
@@ -56,8 +57,9 @@ export default function Gallery() {
   ));
 
   return (
-    <div className="gallery">
-      <ul>{photosList}</ul>
-    </div>
+    // <div className="gallery">
+    //   <ul>{photosList}</ul>
+    // </div>
+    <div>{photosList}</div>
   );
 }

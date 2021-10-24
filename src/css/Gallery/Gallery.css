@@ -17,6 +17,11 @@
   overflow: hidden;
 }
 
+.gallery picture {
+  height: 20rem;
+  width: 100%;
+}
+
 .gallery li:last-child {
   flex-grow: 10;
 }
@@ -34,6 +39,12 @@
 
 img {
   height: 100%;
+}
+picture {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-aspect-ratio: 1/1) {

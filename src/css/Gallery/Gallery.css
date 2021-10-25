@@ -17,6 +17,13 @@
   overflow: hidden;
 }
 
+.gallery li img {
+  transition: transform 0.5s ease;
+}
+.gallery li:hover img {
+  transform: scale(1.15);
+}
+
 .gallery picture {
   height: 20rem;
   width: 100%;
@@ -40,6 +47,7 @@
 img {
   height: 100%;
 }
+
 picture {
   height: 100%;
   display: flex;
@@ -52,7 +60,7 @@ picture {
     height: 30vh;
   }
 }
-
+/* 
 @media (max-height: 480px) {
   .gallery li {
     height: 80vh;
@@ -73,9 +81,9 @@ picture {
     max-height: 75vh;
     min-width: 0;
   }
-}
+} */
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .gallery {
     display: none;
   }

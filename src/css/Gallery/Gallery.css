@@ -9,6 +9,12 @@
   gap: 0.7rem;
 }
 
+.gallery ul::after {
+  content: "";
+  flex-grow: 10;
+  height: 0;
+}
+
 .gallery li {
   height: 20rem;
   flex-grow: 1;
@@ -27,10 +33,6 @@
 .gallery picture {
   height: 20rem;
   width: 100%;
-}
-
-.gallery li:last-child {
-  flex-grow: 10;
 }
 
 .gallery img {

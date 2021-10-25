@@ -14,6 +14,7 @@ import photo12 from "../../img/12.jpg";
 import photo13 from "../../img/13.jpg";
 import photo14 from "../../img/14.png";
 import photo15 from "../../img/15.png";
+import photo16 from "../../img/16.jpg";
 import photo1webp from "../../img/1.webp";
 import photo2webp from "../../img/2.webp";
 import photo3webp from "../../img/3.webp";
@@ -27,6 +28,7 @@ import photo12webp from "../../img/12.webp";
 import photo13webp from "../../img/13.webp";
 import photo14webp from "../../img/14.webp";
 import photo15webp from "../../img/15.webp";
+import photo16webp from "../../img/16.webp";
 import "../../css/Gallery/Gallery.css";
 
 export default function Gallery() {
@@ -44,6 +46,7 @@ export default function Gallery() {
     [photo13, photo13webp, "zapiekanka"],
     [photo14, photo14webp, "zapiekanka"],
     [photo15, photo15webp, "zapiekanka"],
+    [photo16, photo16webp, "zapiekanka"],
   ];
   const photosList = photosArr.map((number) => (
     <ImgWithFallback

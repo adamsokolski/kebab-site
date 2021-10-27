@@ -1,0 +1,54 @@
+@import "./colors.css";
+
+header {
+  width: 100%;
+  background-color: var(--dark);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url(../img/8.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+header h2 {
+  margin-bottom: 1.3rem;
+}
+
+h1 {
+  font-family: "Jockey One", sans-serif;
+  line-height: 0.8;
+  margin: var(--marigin-1);
+}
+
+.header-first-line {
+  font-size: 9rem;
+  color: var(--snow-white);
+  display: block;
+}
+
+.header-second-line {
+  font-size: 7.55rem;
+  color: var(--main);
+  display: block;
+}
+
+.contact-number {
+  font-family: "Rowdies", cursive;
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.contact-number span {
+  font-size: 4.5rem;
+  margin-left: 1rem;
+}

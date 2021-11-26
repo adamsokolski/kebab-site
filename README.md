@@ -1,4 +1,4 @@
-# kebab-pod-kauflandem
+# kebab-site
 
 See: [kebabpodkauflandem.netlify.app](https://kebabpodkauflandem.netlify.app/).
 

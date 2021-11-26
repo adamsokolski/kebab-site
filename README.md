@@ -1,6 +1,6 @@
 # kebab-site
 
-See: [kebabpodkauflandem.netlify.app](https://kebabpodkauflandem.netlify.app/).
+See: [kebab.netlify.app](https://kebab.netlify.app/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

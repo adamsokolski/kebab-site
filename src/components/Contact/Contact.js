@@ -1,12 +1,12 @@
-import React from "react";
-import "../../css/Contact/Contact.css";
-import Map from "../Map/Map";
+import React from 'react'
+import '../../css/Contact/Contact.css'
+import Map from '../Map/Map'
 
 export default function Contact() {
   return (
     <footer className="contact" id="lokalizacja">
       <div className="contact-number-box">
-        {" "}
+        {' '}
         <h2>Zamów teraz!</h2>
         <p className="contact-number">502 432 560</p>
         <a href="tel:502 432 560">
@@ -16,7 +16,7 @@ export default function Contact() {
         </a>
         <div className="opening-hours">
           <p>pn - pt</p>
-          <p>10:00 - 20:00</p>
+          <p>10:00 - 19:00</p>
           <p>sb</p>
           <p>10:00 - 18:00</p>
           <p>nd</p>
@@ -48,10 +48,10 @@ export default function Contact() {
       <div className="footer-info">
         Kebab Pod Kauflandem Dęblin 2021, strona wykonana przez
         <a href="https://www.adamsokolski.pl/" target="_blank" rel="noreferrer">
-          {" "}
+          {' '}
           adamsokolski.pl
         </a>
       </div>
     </footer>
-  );
+  )
 }

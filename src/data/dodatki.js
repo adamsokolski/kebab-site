@@ -1,8 +1,8 @@
 const dodatkiArr = [
-  ["Dodatkowy sos", [], ["1", "00"], 1],
-  ["Dodatkowy ser", [], ["1", "00"], 2],
-  ["Dodatkowe warzywa", [], ["2", "00"], 3],
-  ["Dodatkowe mięso", [], ["7", "00"], 4],
-];
+  ['Dodatkowy sos', [], ['2', '00'], 1],
+  ['Dodatkowy ser', [], ['12', '00'], 2],
+  ['Dodatkowe warzywa', [], ['3', '00'], 3],
+  ['Dodatkowe mięso', [], ['10', '00'], 4],
+]
 
-export default dodatkiArr;
+export default dodatkiArr
